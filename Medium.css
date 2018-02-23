@@ -1,0 +1,124 @@
+@media only screen and (min-width: 992px) {
+
+	h1 {
+		font-size: 5em;
+		color: #000;
+		border-bottom: 1px solid #FF2E30;
+	}
+	
+	h2 {
+		font-size: 3em;
+		color: #000;
+	}
+	
+	.wrapper {
+		display: flex;
+		justify-content: center;
+		background-color: #314757;
+	}
+	
+	.content {
+		width: 100vw;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	
+	.content div {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+	.title {
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		padding: 5vh 0 5vh 0;
+		background-color: #fff;
+	}
+	
+	.img {
+		width: 100vw;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		padding: 10vh 0 5vh 0;
+		background-color: #FF2E30;
+	}
+	
+	.img img {
+		width: 47.5%;
+		height: 100%;
+		margin: 0 4vw 0 4vw;
+	}
+	
+	.text {
+		width: 100vw;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 5vh 0 10vh 0;
+		background-color: #FF2E30;
+	}
+	
+	.text p {
+		width: 50vw;
+		font-size: 1.3em;
+		color: #000;
+	}
+	
+	.text p, .text h2 {
+		padding-bottom: 3vh; 
+	}
+	
+	.icons {
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		padding: 5vh 0 5vh 0;
+		background-color: #fff;
+	}
+	
+	.icons a {
+		width: 50px;
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		margin: 0 3vw;
+	}
+	
+	.code {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 50px;
+		height: 50px;
+		background-image: url(Images/Code.svg);
+		background-repeat: no-repeat;
+		background-size: 50px 50px;
+		align-self: center;
+		transition: 0.3s;
+	}
+
+	.code:hover {
+		background-image: url(Images/Code-hover.svg);
+	}
+
+	.github {
+		width: 50px;
+		height: 50px;
+		background-image: url(Images/Github.svg);
+		background-repeat: no-repeat;
+		background-size: 50px 50px;
+		align-self: center;
+		transition: 0.3s;	
+	}
+
+	.github:hover {
+		background-image: url(Images/Github-hover.svg);
+	}
+
+}
