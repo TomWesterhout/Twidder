@@ -15,7 +15,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	vertical-align: baseline;
-	font-family: FuturaLight;
+	font-family: Knockout;
 	color: #000;
 	text-decoration: none;
 	list-style-type: none;
@@ -23,11 +23,6 @@ time, mark, audio, video {
 }
 
 @font-face {
-	font-family: FuturaLight;
-	src: url(Futura/FuturaPTLight.otf);
-}
-
-@font-face {
-	font-family: FuturaMedium;
-	src: url(Futura/FuturaPTMedium.otf);
+	font-family: Knockout;
+	src: url(Knockout/KnockoutHTF30JuniorWelterwtRegular.otf);
 }
